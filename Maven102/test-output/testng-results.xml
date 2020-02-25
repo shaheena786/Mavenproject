@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30257" started-at="2020-02-25T22:23:28Z" finished-at="2020-02-25T22:23:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30257" started-at="2020-02-25T22:23:28Z" finished-at="2020-02-25T22:23:58Z">
+      <class name="testcases.CompleteAutomationTest">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:testcases.CompleteAutomationTest@5cb9f472]" name="setupReport" is-config="true" duration-ms="194" started-at="2020-02-25T22:23:28Z" finished-at="2020-02-25T22:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:testcases.CompleteAutomationTest@5cb9f472]" name="setupBrowser" is-config="true" duration-ms="3433" started-at="2020-02-25T22:23:28Z" finished-at="2020-02-25T22:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="loginToAP(java.lang.String, java.lang.String)[pri:1, instance:testcases.CompleteAutomationTest@5cb9f472]" name="loginToAP" duration-ms="2804" started-at="2020-02-25T22:23:32Z" data-provider="LoginData" finished-at="2020-02-25T22:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[szumith@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAP -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.CompleteAutomationTest@5cb9f472]" name="appendReport" is-config="true" duration-ms="896" started-at="2020-02-25T22:23:35Z" finished-at="2020-02-25T22:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToAP status=SUCCESS method=CompleteAutomationTest.loginToAP(java.lang.String, java.lang.String)[pri:1, instance:testcases.CompleteAutomationTest@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="SearchBuy(java.lang.String, java.lang.String)[pri:2, instance:testcases.CompleteAutomationTest@5cb9f472]" name="SearchBuy" duration-ms="10496" started-at="2020-02-25T22:23:35Z" data-provider="SearchItem" finished-at="2020-02-25T22:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBuy -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.CompleteAutomationTest@5cb9f472]" name="appendReport" is-config="true" duration-ms="536" started-at="2020-02-25T22:23:46Z" finished-at="2020-02-25T22:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchBuy status=SUCCESS method=CompleteAutomationTest.SearchBuy(java.lang.String, java.lang.String)[pri:2, instance:testcases.CompleteAutomationTest@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="SearchBuy(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.CompleteAutomationTest@5cb9f472]" name="SearchBuy" duration-ms="11087" started-at="2020-02-25T22:23:46Z" data-provider="Contact" finished-at="2020-02-25T22:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JSYYHZYKO - 02/21/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Printed Summer Dress - Color : Yellow, Size : S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[I need help!!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBuy -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.CompleteAutomationTest@5cb9f472]" name="appendReport" is-config="true" duration-ms="612" started-at="2020-02-25T22:23:58Z" finished-at="2020-02-25T22:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchBuy status=SUCCESS method=CompleteAutomationTest.SearchBuy(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.CompleteAutomationTest@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:testcases.CompleteAutomationTest@5cb9f472]" name="closeSession" is-config="true" duration-ms="128" started-at="2020-02-25T22:23:58Z" finished-at="2020-02-25T22:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- testcases.CompleteAutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
